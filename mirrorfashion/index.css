@@ -8,7 +8,11 @@
 .menu-opcoes a {
     color: #003366;
 }
-
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .sacola {
     background-image: url(img/sacola.png);
@@ -18,7 +22,10 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
-    padding-top: 8px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 body {
     color: #333333;
@@ -28,4 +35,8 @@ body {
     margin: 0 auto;
     width: 940px;
 }
+header {
+    position: relative;
+}
+
 
