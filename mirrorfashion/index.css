@@ -11,13 +11,12 @@ header {
 .container {
     margin: 0 auto;
     width: 940px;
-    display: flex;
+
     flex-direction: column;
 }
 
 .container, main {
-    display: flex;
-    justify-content: space-between;
+
     align-items: flex-start;
     margin-top: 20px;
 }
@@ -54,7 +53,6 @@ header {
     top: 0;
     right: 0;
 }
-
 .busca,
 .menu-departamentos {
     background-color: #dcdcdc;
@@ -63,6 +61,7 @@ header {
 
     margin-right: 10px;
     width: 230px;
+    float: left;
 }
 
 .busca h2,
@@ -70,7 +69,6 @@ header {
 .menu-departamentos h2 {
     margin: 10px;
 }
-
 .menu-departamentos li {
     background-color: white;
     margin-bottom: 1px;
@@ -86,23 +84,14 @@ header {
     width: 170px;
 }
 
-.busca,
 .menu-departamentos {
-    float: left;
+     clear: left;
+     margin-top: 10px;
+     padding-bottom: 10px;
 }
 
-.menu-departamentos {
-    clear: left;
-}
-
-.menu-departamentos {
+.destaque {
     margin-top: 10px;
-    padding-bottom: 10px;
-}
-
-figure {
-    margin: 0px 40px;
-    
 }
 
 .painel {
@@ -113,27 +102,33 @@ figure {
 
 .novidades {
     float: left;
+    background-color:#F5DCDC;
 }
 
 .mais-vendidos {
     float: right;
+    background-color:#F5DCDC;
 }
- .painel li {
-     display: inline-block;
-     vertical-align: top;
-     width: 140px;
-     margin: 2px;
-     padding-bottom: 10px;
- }
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+    
+}
+
 .painel h2 {
     font-size: 24px;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
