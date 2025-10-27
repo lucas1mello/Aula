@@ -8,18 +8,37 @@ header {
     width: 100%;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     margin: 0 auto;
     width: 940px;
-
-    flex-direction: column;
 }
 
 .container, main {
-
+    display: flex;
     align-items: flex-start;
+    flex-direction: column;
     margin-top: 20px;
 }
+
+.section-01 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-01 figure {
+    margin: 0;
+}
+
+.container-painel {
+    display: flex;
+    gap: 1rem;
+}
+ 
 
 .menu-opcoes ul {
     font-size: 15px;
@@ -90,10 +109,6 @@ header {
      padding-bottom: 10px;
 }
 
-.destaque {
-    margin-top: 10px;
-}
-
 .painel {
     margin: 10px 0;
     padding: 10px;
@@ -106,8 +121,12 @@ header {
 }
 
 .mais-vendidos {
-    float: right;
+    /* float: right; */
     background-color:#F5DCDC;
+}
+
+.painel ol {
+    padding: 0;
 }
 
 .painel li {
