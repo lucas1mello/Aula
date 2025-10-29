@@ -23,6 +23,10 @@ body {
     max-width: 400px;
 }
 
+img {
+    width: 330px;
+}
+
 .perfil {
     width: 120px;
     height: 120px;
@@ -47,13 +51,27 @@ p {
     color: white;
 }
 
-.redes {
-    margin-bottom: 15px;
+.redes:hover {
+    transform: scale(1.2);
 }
 
-button {
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 20px;
-    font-size: 15px;
+.redes {
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.botao {
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+}
+
+.botao a:hover {
+    background-color: #e65c00;
+    color: white;
 }
