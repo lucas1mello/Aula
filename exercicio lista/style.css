@@ -18,7 +18,7 @@ body {
     background: #fff;
     padding: 40px;
     border-radius: 16px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
 }
@@ -47,7 +47,7 @@ p {
 }
 
 .redes a:hover {
-    background-color: #e65c00;
+    background-color: #ff9b9b;
     color: white;
 }
 
@@ -72,6 +72,6 @@ p {
 }
 
 .botao a:hover {
-    background-color: #e65c00;
+    background-color: #ff9b9b;
     color: white;
 }
