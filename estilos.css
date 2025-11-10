@@ -1,0 +1,233 @@
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+header {
+	position: relative;
+}
+
+.sacola {
+	background: url(./img/sacola.png) no-repeat top right;
+
+	width: 140px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.menu-opcoes a {
+	color: #003366;
+}
+
+.busca, 
+.menu-departamentos {
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;  
+	
+	width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-departamentos a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+.busca, 
+.menu-departamentos {
+	float: left;
+}
+
+.menu-departamentos {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+.destaque {
+	margin-top: 10px;
+}
+
+.destaque img {
+	margin-left: 10px;
+}
+
+.painel {
+	margin: 10px 0;
+	padding: 10px;
+	width: 430px;
+	box-sizing: border-box;
+}
+
+.novidades {
+	float: left;
+	background-color: #f5dcdc;
+}
+
+.mais-vendidos {
+	float: right;
+	background-color: #dcdcf5;
+}
+
+.painel li {
+  display: block; /* deixa o flex cuidar do alinhamento */
+  width: 30%; /* 3 por linha */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.painel h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+}
+
+.painel a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+/* Organização das miniaturas */
+.painel ol {
+	display: flex;	
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* espaçamento entre miniaturas */
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada item (miniatura + legenda) */
+.painel li {
+	background-color: white;
+  width: 30%; /* 3 por linha */
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Legenda (figcaption) */
+.painel figcaption {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.3;
+}
+
+.painel img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+
+footer {
+	background-image: url(./img/fundo-rodape.png);
+	clear: both;
+	
+}
+
+.imgrdp {
+	margin: 16px 25px;
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li {
+	display: inline-block;
+	
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+	margin-right: 15px;
+	display: block;
+	text-indent: -99999px;  
+}
+
+.social a[href*="facebook"] {
+	background-image: url(./img/facebook.png);
+}
+
+.social a[href*="twitter"] {
+	background-image: url(./img/twitter.png);
+}
+
+.social a[href*="plus"] {
+	background-image: url(./img/googleplus.png);
+}
+
+
+
+.busca button {
+	background-image: url(./img/busca.png);
+	background-repeat: no-repeat;
+	border: none;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+}

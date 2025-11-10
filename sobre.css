@@ -1,0 +1,98 @@
+body {
+    color: #333333;
+    font-family: lucida sams 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+h1 {
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+}
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+figure {
+    background-color: #f2eded;
+    border: 1px solid   #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#familia {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+footer {
+	background-image: url(./img/fundo-rodape.png);
+	clear: both;
+    width: 940px;
+
+}
+
+.imgrdp {
+	margin: 16px 25px;
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 2px;
+	right: 0;
+}
+
+.social li {
+	display: inline-block;
+	
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+	margin-right: 15px;
+	display: block;
+	text-indent: -99999px;  
+}
+
+.social a[href*="facebook"] {
+	background-image: url(./img/facebook.png);
+}
+
+.social a[href*="twitter"] {
+	background-image: url(./img/twitter.png);
+}
+
+.social a[href*="plus"] {
+	background-image: url(./img/googleplus.png);
+}
